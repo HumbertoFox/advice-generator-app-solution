@@ -36,7 +36,7 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 - Marcação semântica HTML5
 - Propriedades personalizadas CSS
 - Caixa flexível
-- Js com Fetch e GitHub API
+- Js com Fetch API
 
 ## Desenvolvido em:
 
