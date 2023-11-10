@@ -22,15 +22,13 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
     const resposta = await fetch("https://api.adviceslip.com/advice");
     const getUpConselho = await resposta.json();
     const adIdUpConselho = `Advice #${getUpConselho.slip.id}`;
-    const adTextUpConselho = `‟${getUpConselho.slip.advice}”`;
+    const adTextUpConselho = `“${getUpConselho.slip.advice}”`;
 
     idConselho.innerHTML = adIdUpConselho;
     descricaoConselho.innerHTML = adTextUpConselho;
-  }
+  };
 
-upBotao.addEventListener("click", getConselho);
-
-getConselho();
+  upBotao.addEventListener("click", getConselho);
 ```
 
 ### Construído com
