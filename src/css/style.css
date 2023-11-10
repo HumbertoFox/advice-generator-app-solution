@@ -1,0 +1,83 @@
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--Dark-Blue);
+}
+
+.main-advice-card {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.div-advice-dice {
+    width: 540px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Dark-Grayish-Blue);
+    border-radius: 15px;
+}
+
+.div-advice-dice .h2-advice-dice {
+    color: var(--Neon-Green);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 13px;
+    margin-top: 48px;
+}
+
+.div-advice-dice .p-advice-dice {
+    text-align: center;
+    color: var(--Light-Cyan);
+    font-size: 28px;
+    letter-spacing: -.2px;
+    padding: 23px 40px;
+    margin-bottom: 17px;
+}
+
+.div-advice-dice picture {
+    margin-bottom: 67px;
+}
+
+.div-advice-dice .advice-up {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    bottom: -31px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Neon-Green);
+    border-radius: 50%;
+    cursor: url(../images/pointer.svg), auto;
+    transition: .3s ease-in-out;
+}
+
+.div-advice-dice .advice-up:hover {
+    box-shadow: 2px 2px 40px var(--Neon-Green);
+}
+
+.div-advice-dice .advice-up:active {
+    box-shadow: none;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

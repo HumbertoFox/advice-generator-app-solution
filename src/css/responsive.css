@@ -1,0 +1,18 @@
+@media(max-width: 768px){
+    .div-advice-dice{
+        width: 345px;
+        border-radius: 10px;
+    }
+    .div-advice-dice .h2-advice-dice {
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    .div-advice-dice .p-advice-dice{
+        font-size: 24px;
+        padding: 23px 20px;
+        margin-bottom: 2px;
+    }
+    .div-advice-dice picture {
+        margin-bottom: 58px;
+    }
+}
