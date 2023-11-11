@@ -1,5 +1,5 @@
 const upBotao = document.getElementById('main-button');
-const idConselho = document.getElementById('main-h2');
+const idConselho = document.getElementById('main-h1');
 const descricaoConselho = document.getElementById('main-p');
 
 async function getConselho() {

@@ -30,7 +30,7 @@ body {
     border-radius: 15px;
 }
 
-.div-advice-dice .h2-advice-dice {
+.div-advice-dice .h1-advice-dice {
     color: var(--Neon-Green);
     text-transform: uppercase;
     letter-spacing: 4px;
